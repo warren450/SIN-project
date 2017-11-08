@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+        <net-file          value="net.xml"/>          <!-- Created from [edges.xml, nodes.xml, connections.xml] via NETCONVERT -->
+        <route-files       value="routing.xml"/>      <!-- Describes cars, their properties and routes -->
+        <gui-settings-file value="gui_settings.xml"/> <!-- Delay between steps & viewing settings -->
+    </input>
+    
+    <time>
+        <begin value="0"/>
+    </time>
+    
+    <report>
+        <verbose     value="true"/>
+        <no-step-log value="true"/>
+    </report>
+    
+</configuration>
